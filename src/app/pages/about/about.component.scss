@@ -1,0 +1,20 @@
+.about {
+  height: inherit;
+  width: inherit;
+
+  &__wrapper {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__left {
+    background-color: red;
+  }
+
+  &__right {
+    background-color: blue;
+  }
+}
