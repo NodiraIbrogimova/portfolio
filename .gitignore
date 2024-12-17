@@ -47,3 +47,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# update and build the project guidelines:
+# https://benfraserdesign.medium.com/deploying-an-angular-app-on-github-pages-c4dfee672968
