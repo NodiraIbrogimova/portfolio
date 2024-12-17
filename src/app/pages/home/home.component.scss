@@ -26,7 +26,7 @@
       flex: 1;
       max-height: 80vh;
       min-width: 20vw;
-      background-size: unset;
+      background-size: contain;
       background-repeat: no-repeat;
       background-position: center right;
     }
@@ -52,10 +52,20 @@
 }
 
 @media (max-width: 900px) {
-  .home .home__wrapper {
-    display: none;
-  }
   .home {
-    justify-content: center;
+    .container {
+      max-width: unset;
+      padding: 20vh 5vh;
+      flex-direction: column;
+      justify-content: end;
+      align-items: center;
+    }
+
+    &__left {
+      &__img {
+        background-position: center;
+        max-height: 50vh;
+      }
+    }
   }
 }
